@@ -15,9 +15,6 @@ button_pin_next = 15
 
 
 def sound_success():
-  #chime.theme('mario')
-  #chime.info()
-  #Sssssttt
   pass
 
 def connectMPD():
@@ -66,10 +63,9 @@ def register_pins():
 
 def startup():
   register_pins()
-  #message = input("Press enter to quit\n\n") # Run until someone presses enter
-  #while: pass
   try:
     while True:
+      time.sleep(0.05)
       pass
   except KeyboardInterrupt:
     sys.exit(0)
